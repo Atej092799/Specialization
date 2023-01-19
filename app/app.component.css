@@ -1,0 +1,26 @@
+.main{
+    text-align: center;
+    margin: 50px 400px 75px 400px;
+    border-style: solid ;
+    background-color: F8EDE3;
+    height: 70vh;
+    
+}
+.title{
+    margin-top: 10mm;
+}
+.number{
+    text-align: center;
+}
+.value{
+    margin-left: 5mm;
+}
+.add{
+    margin: 50px;
+}
+/* .addbtn{
+    margin-top: 1mm;
+}
+.subbtn{
+    margin-top: 1mm;
+} */

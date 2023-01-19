@@ -1,0 +1,27 @@
+
+<div class="main">
+    <h1 class="title">{{title}}</h1>
+    <h2>data Binding!</h2>
+ <br>
+
+<!-- <h3>Score:</h3> -->
+
+<div class="number">
+<!-- <label class="input" for="numberInput">Score:</label>
+
+<input class="value" name="numberInput" type="text" [(ngModel)]= "numberValue"><br><br> -->
+<h2>Score: {{numberValue}}</h2><br>
+
+<!-- <p class="add"><button class="addbtn" (click)="addEvent()">Add</button> &nbsp; &nbsp; -->
+<!-- <button class="subbtn" (click)="subtractEvent()">Subtract</button> -->
+
+<app-first (click)="addEvent()"></app-first>
+<app-second (click)="subtractEvent()"></app-second>
+</div> 
+
+<br>
+<!-- <input type="text" [(ngModel)]="InputValue">
+<br>
+
+<button [disabled]="isDisabled" (click)="sampleClick()">Sample</button> -->
+</div>
